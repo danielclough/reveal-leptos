@@ -22,12 +22,12 @@ rustup target add wasm32-unknown-unknown
 To build a Reveal Leptos app for release, use the command
 
 ```sh
-trunk build --release
+trunk build --release --dist release
 ```
 
-This will output the files necessary to run your app into the `dist` folder; you can then use any static site host to serve these files.
+This will output the files necessary to run your app into the `release` folder; you can then use any static site host to serve these files.
 
-For further information about hosting Reveal Leptos apps, please refer to [the Leptos Book chapter on deployment available here][deploy-csr].
+For further information about hosting Leptos apps, please refer to [the Leptos Book chapter on deployment available here][deploy-csr].
 
 
 [Leptos]: https://github.com/leptos-rs/leptos
