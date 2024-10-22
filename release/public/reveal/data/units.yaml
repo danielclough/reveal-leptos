@@ -1,0 +1,111 @@
+- name: "Full Circle Unit"
+  qty_needed: 3
+  coordinated_colours_skinny_diamonds: Matcha Green
+  coordinated_colours_wide_diamonds: Matcha Green
+  qty_of_skinny_diamonds: 0
+  qty_of_wide_diamonds: 45
+  sub_units: 
+    - skinny_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+      - 0
+    - wide_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+      - 0
+      - 0
+      - 5
+
+- name: "Oval Unit"
+  qty_needed: 3
+  coordinated_colours_skinny_diamonds: Matcha Green
+  coordinated_colours_wide_diamonds: Matcha Green
+  qty_of_skinny_diamonds: 12
+  qty_of_wide_diamonds: 21
+  sub_units:
+    - skinny_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+      - 4
+    - wide_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+      - 2
+      - 1
+      - 1
+
+- name: "Right Unit"
+  qty_needed: 2
+  coordinated_colours_skinny_diamonds: Matcha Green
+  coordinated_colours_wide_diamonds: Matcha Green
+  qty_of_skinny_diamonds: 6
+  qty_of_wide_diamonds: 22
+  sub_units:
+    - skinny_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+      - 3
+    - wide_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+        - 2
+        - 0
+        - 3
+
+- name: "Left Unit"
+  qty_needed: 2
+  coordinated_colours_skinny_diamonds: Matcha Green
+  coordinated_colours_wide_diamonds: Matcha Green
+  qty_of_skinny_diamonds: 6
+  qty_of_wide_diamonds: 22
+  sub_units:
+    - skinny_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+      - 3
+    - wide_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+      - 2
+      - 0
+      - 3
+
+- name: "Sakura Unit"
+  qty_needed: 10
+  coordinated_colours_skinny_diamonds: Blue Green
+  coordinated_colours_wide_diamonds: Matcha Green
+  qty_of_skinny_diamonds: 50
+  qty_of_wide_diamonds: 50
+  sub_units:
+    - skinny_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+      - 5
+    - wide_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+      - 0
+      - 1
+      - 1
+
+- name: "Center Sakura Unit"
+  qty_needed: 3
+  coordinated_colours_skinny_diamonds: Matcha Green
+  coordinated_colours_wide_diamonds: Blue Green
+  qty_of_skinny_diamonds: 15
+  qty_of_wide_diamonds: 15
+  sub_units:
+    - skinny_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+      - 5
+    - wide_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+      - 0
+      - 1
+      - 1
+
+- name: "Center Filling"
+  qty_needed: 1
+  coordinated_colours_skinny_diamonds: Lime Green
+  coordinated_colours_wide_diamonds: Lime Green
+  qty_of_skinny_diamonds: 0
+  qty_of_wide_diamonds: 0
+  sub_units:
+    - skinny_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+      - 16
+    - wide_diamond:
+    # Index used as multiplier for "single", "double", "triple"
+      - 4
+      - 1
+      - 8

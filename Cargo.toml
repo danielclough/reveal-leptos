@@ -13,7 +13,7 @@ leptos_meta = { version = "0.6", features = ["csr", "nightly"] }
 leptos_router = { version = "0.6", features = ["csr", "nightly"] }
 console_log = "1"
 log = "0.4.22"
-console_error_panic_hook = "0.1"
+browser-panic-hook = "0.2.0"
 
 # utils
 # strum = { version = "0.25", features = ["derive", "strum_macros"] }

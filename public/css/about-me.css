@@ -1,0 +1,41 @@
+.container {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  margin: 0 6rem !important;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.info-container {
+  padding: 20px;
+}
+
+.info-container p {
+  font-size: 18px;
+  color: #333;
+}
+
+.info-container a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.info-container a:hover {
+  color: #23527c;
+}

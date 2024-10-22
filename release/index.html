@@ -2,11 +2,6 @@
 <html>
 
 <head>
-  <!-- Project CSS -->
-  <!-- Add a plain CSS file: see https://trunkrs.dev/assets/#css -->
-  <!-- If using Tailwind with Leptos CSR, see https://trunkrs.dev/assets/#tailwind instead-->
-  <link rel="stylesheet" href="/styles-fe1f8b56c0aaf1a3.css" integrity="sha384&#x2D;gZQm8rjCnhpWSE5orngUSO4Zyb5GwbtJSTaBie5OGfdPZuuoCmjpT&#x2F;8MP3d&#x2F;e8hh"/>
-
   <!-- Reveal CSS -->
   <link rel="stylesheet" href="/reveal-b4b243b64d1737e4.css" integrity="sha384&#x2D;sWNqQWMO8qDhwZOyrvLKmmhXqE2NzoB8HyF9ZnqChsoqfxDsR9CIZGa3PnET0UYC"/>
   <!-- themes: beige,  black,  blood,  league,  moon,  night, serif,  simple,  sky,  solarized, white -->
@@ -14,19 +9,26 @@
   <!-- Theme used for syntax highlighting of code -->
   <link rel="stylesheet" href="/zenburn-fa6ff5c6c43322ac.css" integrity="sha384&#x2D;sPluGLWICYjbTkVBtJgk093E9FHND5UZpILiTUAXmkMDlguY79gKORAb37jVtirn"/>
 
+  <!-- Project CSS -->
+  <!-- Add a plain CSS file: see https://trunkrs.dev/assets/#css -->
+  <!-- If using Tailwind with Leptos CSR, see https://trunkrs.dev/assets/#tailwind instead-->
+  <link rel="stylesheet" href="/styles-2c043bbc8d735c7d.css" integrity="sha384&#x2D;RCUl6neepkbZR6Qm&#x2B;bnUHyrdK9vSswM&#x2B;MbNRyU&#x2B;k6OTjYXCfZxj13JkjDdEW8Hoi"/>
+
   <!-- Reveal JS -->
   <script src="/head.min-47bb746262128a34.js" integrity="sha384&#x2D;yddvZC9zaWTl4cTegFtX&#x2B;vMwEB1WlPJ2DCOQrTIjcf6yB8rUblWAHBPfUxBHVTnm"></script>
   <script src="/reveal-bf63bc4b8e5d27f8.js" integrity="sha384&#x2D;&#x2F;hvd3X8qasT6v45PHsvG&#x2F;LhvorwNybn9S&#x2B;BIz5FxzZKbZhfCbEuJg&#x2B;NWtLzx7vbZ"></script>
 
   <!-- Include favicon in dist output: see https://trunkrs.dev/assets/#icon -->
-  <link rel="icon" href="/favicon-e9cbd8f50cc65bf2.ico" integrity="sha384&#x2D;YobgLXwtz0GhXVUTHml49p32guapVFlEG8UpQdDVN3kekOqkQi&#x2B;qSXEpwp&#x2B;yM4BW"/>
+  <link rel="icon" href="/favicon-3479e5fd28be4148.ico" integrity="sha384&#x2D;shVwMWaEHUISMdBIKAdpByktOLQbEalev09UFo0MQ51atHvefCE&#x2F;EIiOKFWOfOev"/>
 
+  <!-- Static Files -->
+  
 
   <!-- include support for `wasm-bindgen --weak-refs` - see: https://rustwasm.github.io/docs/wasm-bindgen/reference/weak-references.html -->
   
-<script type="module" nonce="cKSkDrMkBM6QG+6v+PICHQ==">
-import init, * as bindings from '/reveal-leptos-804883344af48dd8.js';
-const wasm = await init('/reveal-leptos-804883344af48dd8_bg.wasm');
+<script type="module" nonce="Q6oBsgUvlUhIXkUiZtUAkw==">
+import init, * as bindings from '/reveal-leptos-ecd750ecda814220.js';
+const wasm = await init('/reveal-leptos-ecd750ecda814220_bg.wasm');
 
 
 window.wasmBindings = bindings;
@@ -42,24 +44,21 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
       
       Reveal.initialize({
-            // dependencies: [
-            //     { src: 'public/reveal/plugin/markdown/marked.js' },
-            //     { src: 'public/reveal/plugin/markdown/markdown.js' },
-            //     { src: 'public/reveal/plugin/notes/notes.js', async: true },
-            //     {
-            //     src: 'public/reveal/plugin/highlight/highlight.js',
-            //     async: true,
-            //     callback: function () {
-            //         hljs.initHighlightingOnLoad();
-            //     }
-            //     }
-            // ]
+            dependencies: [
+                {
+                  src: 'public/reveal/plugin/highlight/highlight.js',
+                  async: true,
+                  callback: function () {
+                      hljs.initHighlightingOnLoad();
+                  }
+                }
+            ]
             });
     });
   </script>
 
-<link rel="modulepreload" href="/reveal-leptos-804883344af48dd8.js" crossorigin=anonymous integrity="sha384-wEjSL/qR4c/sAtcOQOuSQpISX5QNgSTPC09SQ0olbSZxoOG9EPSZxeeqGmaNvhKs">
-<link rel="preload" href="/reveal-leptos-804883344af48dd8_bg.wasm" crossorigin=anonymous integrity="sha384-j1ms+3cyHQ09jM4zlsZ1bwJAQego2t4A03IUdwemm5GAGFVw3QC40S4kmwSVew2e" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/reveal-leptos-ecd750ecda814220.js" crossorigin=anonymous integrity="sha384-1tlXUPH8xn6LP2JlFI92uJw9caa9YpfSNrTba0T9NB5FDqxza53NBXpi6Gi3lCys">
+<link rel="preload" href="/reveal-leptos-ecd750ecda814220_bg.wasm" crossorigin=anonymous integrity="sha384-o0cHPmrlSEEz7O5ELEFlfWQFAI4erozpBBbR/OWWXIEqH88SJjG8Uqa7NEC2slbK" as="fetch" type="application/wasm"></head>
 
 <body></body>
 

@@ -2,17 +2,17 @@
 <html>
 
 <head>
-  <!-- Project CSS -->
-  <!-- Add a plain CSS file: see https://trunkrs.dev/assets/#css -->
-  <!-- If using Tailwind with Leptos CSR, see https://trunkrs.dev/assets/#tailwind instead-->
-  <link data-trunk rel="css" href="public/styles.css" />
-
   <!-- Reveal CSS -->
   <link data-trunk rel="css" href="public/reveal/css/reveal.css" />
   <!-- themes: beige,  black,  blood,  league,  moon,  night, serif,  simple,  sky,  solarized, white -->
   <link data-trunk rel="css" href="public/reveal/css/theme/black.css" />
   <!-- Theme used for syntax highlighting of code -->
   <link data-trunk rel="css" href="public/reveal/lib/css/zenburn.css" />
+
+  <!-- Project CSS -->
+  <!-- Add a plain CSS file: see https://trunkrs.dev/assets/#css -->
+  <!-- If using Tailwind with Leptos CSR, see https://trunkrs.dev/assets/#tailwind instead-->
+  <link data-trunk rel="css" href="public/css/styles.css" />
 
   <!-- Reveal JS -->
   <script data-trunk src="public/reveal/lib/js/head.min.js"></script>
@@ -21,6 +21,8 @@
   <!-- Include favicon in dist output: see https://trunkrs.dev/assets/#icon -->
   <link data-trunk rel="icon" href="public/favicon.ico" />
 
+  <!-- Static Files -->
+  <link data-trunk rel="copy-dir" href="public/" />
 
   <!-- include support for `wasm-bindgen --weak-refs` - see: https://rustwasm.github.io/docs/wasm-bindgen/reference/weak-references.html -->
   <link data-trunk rel="rust" data-wasm-opt="z" data-weak-refs />
@@ -31,18 +33,15 @@
 
       
       Reveal.initialize({
-            // dependencies: [
-            //     { src: 'public/reveal/plugin/markdown/marked.js' },
-            //     { src: 'public/reveal/plugin/markdown/markdown.js' },
-            //     { src: 'public/reveal/plugin/notes/notes.js', async: true },
-            //     {
-            //     src: 'public/reveal/plugin/highlight/highlight.js',
-            //     async: true,
-            //     callback: function () {
-            //         hljs.initHighlightingOnLoad();
-            //     }
-            //     }
-            // ]
+            dependencies: [
+                {
+                  src: 'public/reveal/plugin/highlight/highlight.js',
+                  async: true,
+                  callback: function () {
+                      hljs.initHighlightingOnLoad();
+                  }
+                }
+            ]
             });
     });
   </script>

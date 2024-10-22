@@ -1,25 +1,22 @@
+use crate::components::content::about::About;
+use crate::components::content::read_the_source::ReadTheSource;
 use leptos::*;
-use leptos_markdown::Markdown;
+// use leptos_markdown::Markdown;
 
-/// Slides
+/// About Me
 #[component]
 pub fn Slides() -> impl IntoView {
-    let (counter, set_counter) = create_signal(0);
     view! {
-        <section>
-            <Markdown src="# Reactive Power!"/>
-            { move || counter() }
-            <button on:click=move |_| set_counter.update(|v| *v += 1)> 
-                "Increment Now!"
-            </button>
-        </section>
-        <section>
-            <section>
-                <Markdown src="# Markdown Power!"/>
-            </section>
-            <section>
-                <Markdown src="# Markdown Power!"/>
-            </section>
-        </section>
+        // About Me
+        <About />
+
+        // Leptos and Reveal.js Integration
+        // <LeptosRevealJsIntegration/>
+
+        // Read the Source Code!
+        <ReadTheSource/>
+
+        // FreeSlides
+        // <FreeSlides/>
     }
 }

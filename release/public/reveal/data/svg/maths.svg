@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="210mm" height="297mm" version="1.1" viewBox="0 0 210 297" xmlns="http://www.w3.org/2000/svg">
+ <g fill="none">
+  <path d="m53.438-3.1033-2.3687 307.99" stroke="#000" stroke-width=".26458px"/>
+  <path d="m11.36 297.41 39.253-38.616" stroke="#f00" stroke-width=".26458px"/>
+  <g stroke="#000" stroke-width=".26458px">
+   <path d="m6.8982 290.64 39.991-37.421 0.92294-61.885-41.857 40.117z"/>
+   <path d="m6.4818 209.65 39.991-37.421 0.92294-61.885-41.857 40.117z"/>
+   <path d="m6.1535 129.36 39.991-37.421 0.92294-61.885-41.857 40.117z"/>
+  </g>
+  <g stroke="#f00">
+   <path d="m0.61932 225.35 50.759-45.83" stroke-width=".32777px"/>
+   <path d="m0.63404 142.55 51.878-45.691" stroke-width=".33086px"/>
+   <path d="m2.0205 58.678 50.759-45.83" stroke-width=".32777px"/>
+  </g>
+ </g>
+ <path d="m65.571 1.4524 0.44213 294.97" fill="#00f" stroke="#00f" stroke-width=".26458px"/>
+ <g fill="none" stroke="#000" stroke-width=".26458px">
+  <path d="m51.802 253.57 26.555 1.1e-4"/>
+  <path d="m51.909 191.9 25.157 0.54482"/>
+  <path d="m52.25 179.99 23.21 0.0666"/>
+  <path d="m52.531 173 23.327 0.0722"/>
+ </g>
+ <g fill="#000000" font-family="sans-serif" font-size="10.583px" stroke-width=".26458">
+  <text x="67.091629" y="293.81619" style="line-height:1.25" xml:space="preserve"><tspan x="67.091629" y="293.81619" stroke-width=".26458">remaining_tri</tspan></text>
+  <text x="68.135925" y="251.78824" style="line-height:1.25" xml:space="preserve"><tspan x="68.135925" y="251.78824" stroke-width=".26458">diamond_side</tspan></text>
+  <text x="78.138916" y="191.18719" style="line-height:1.25" xml:space="preserve"><tspan x="78.138916" y="191.18719" stroke-width=".26458">skew_long</tspan></text>
+  <text x="76.904785" y="179.4752" style="line-height:1.25" xml:space="preserve"><tspan x="76.904785" y="179.4752" stroke-width=".26458">skew_short</tspan></text>
+ </g>
+ <g fill="none" stroke-width=".26458px">
+  <path d="m47.336 110.52 5.0968 9e-3" stroke="#0f0"/>
+  <path d="m47.238 110.39 5.1593-13.117" stroke="#ff9500"/>
+  <g stroke="#000">
+   <path d="m48.359 110.62 0.0094 1.3247-0.89314-0.0375"/>
+   <path d="m51.755 110.4-0.01352-0.73857 0.75188 0.045"/>
+   <path d="m51.933 99.027s-0.14012 1.4452 0.69427 0"/>
+  </g>
+ </g>
+ <g font-family="sans-serif" stroke-width=".26458">
+  <text x="52.87204" y="108.1898" fill="#00ff00" font-size="1.7639px" style="line-height:1.25" xml:space="preserve"><tspan x="52.87204" y="108.1898">Opposite=</tspan><tspan x="52.87204" y="110.39467">5/16 = 0.3125</tspan></text>
+  <text x="53.184738" y="100.16608" font-size="1.7639px" style="line-height:1.25" xml:space="preserve"><tspan x="53.184738" y="100.16608" font-size="1.7639px" stroke-width=".26458">θ=36°/2</tspan></text>
+  <text x="52.926846" y="102.76263" font-size="1.4111px" style="line-height:1.25" xml:space="preserve"><tspan x="52.926846" y="102.76263" font-size="1.4111px" stroke-width=".26458">adj. =  skew_long</tspan></text>
+  <text x="53.173782" y="96.782173" font-size="1.7639px" style="line-height:1.25" xml:space="preserve"><tspan x="53.173782" y="96.782173" font-size="1.7639px" stroke-width=".26458">θ=(180°-36°)/2</tspan></text>
+ </g>
+ <g fill="none" stroke-width=".26458px">
+  <path d="m52.255 96.8-6.0853-4.5928" stroke="#f80"/>
+  <path d="m45.867 92.293 6.5131 0.3924" stroke="#0f0"/>
+  <path d="m51.484 96.065s0.02617-1.2197 1.0694-0.61741" stroke="#000"/>
+ </g>
+ <g font-family="sans-serif" stroke-width=".26458">
+  <text x="55.329369" y="93.707779" font-size="3.5278px" style="line-height:1.25" xml:space="preserve"><tspan stroke-width=".26458"/></text>
+  <text x="53.077873" y="94.479065" font-size="1.4111px" style="line-height:1.25" xml:space="preserve"><tspan x="53.077873" y="94.479065" font-size="1.4111px" stroke-width=".26458">adj. =  skew_short</tspan></text>
+  <text x="52.996456" y="89.648666" fill="#00ff00" font-size="1.7639px" style="line-height:1.25" xml:space="preserve"><tspan x="52.996456" y="89.648666">Opposite=</tspan><tspan x="52.996456" y="91.853531">5/16 = 0.3125</tspan></text>
+ </g>
+</svg>

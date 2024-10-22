@@ -1,3 +1,4 @@
+#![allow(non_snake_case)]
 use leptos::*;
 use leptos_meta::*;
 use leptos_router::*;
