@@ -26,7 +26,7 @@
 
   <!-- include support for `wasm-bindgen --weak-refs` - see: https://rustwasm.github.io/docs/wasm-bindgen/reference/weak-references.html -->
   
-<script type="module" nonce="Q6oBsgUvlUhIXkUiZtUAkw==">
+<script type="module" nonce="bb2qjPhqZoooTCSRHvbyoQ==">
 import init, * as bindings from '/reveal-leptos-ecd750ecda814220.js';
 const wasm = await init('/reveal-leptos-ecd750ecda814220_bg.wasm');
 
@@ -38,24 +38,50 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
 
+  <!-- Init Reveal JS -->
   <script type="module">
     addEventListener("TrunkApplicationStarted", (event) => {
       console.log("application started - bindings:", window.wasmBindings, "WASM:", event.detail.wasm);
 
-      
       Reveal.initialize({
-            dependencies: [
-                {
-                  src: 'public/reveal/plugin/highlight/highlight.js',
-                  async: true,
-                  callback: function () {
-                      hljs.initHighlightingOnLoad();
-                  }
-                }
-            ]
-            });
+        dependencies: [
+          {
+            src: 'public/reveal/plugin/highlight/highlight.js',
+            async: true,
+            callback: function () {
+              hljs.initHighlightingOnLoad();
+            }
+          }
+        ]
+      });
     });
   </script>
+
+  <!-- Include Manifest -->
+  
+  <link rel="manifest" href="manifest.json" />
+
+  <title>Reveal Leptos</title>
+  <meta name="description" content="The Pleasure of Reveal.JS with the Power of Leptos!">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://reveal-leptos.netlify.app/">
+  <meta property="og:title" content="Reveal Leptos">
+  <meta property="og:description" content="The Pleasure of Reveal.JS with the Power of Leptos!">
+  <meta property="og:image" content="https://reveal-leptos.netlify.app/public/content/section-about.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://reveal-leptos.netlify.app/">
+  <meta property="twitter:title" content="Reveal Leptos">
+  <meta property="twitter:description" content="The Pleasure of Reveal.JS with the Power of Leptos!">
+  <meta property="twitter:image" content="https://reveal-leptos.netlify.app/public/content/section-about.png">
+
+  <!-- Other meta tags -->
+  <meta name="robots" content="noindex">
+  <meta name="keywords" content="reveal.js, leptos, web development, presentation, slides">
+  <meta name="author" content="danielclough@users.noreply.github.com">
 
 <link rel="modulepreload" href="/reveal-leptos-ecd750ecda814220.js" crossorigin=anonymous integrity="sha384-1tlXUPH8xn6LP2JlFI92uJw9caa9YpfSNrTba0T9NB5FDqxza53NBXpi6Gi3lCys">
 <link rel="preload" href="/reveal-leptos-ecd750ecda814220_bg.wasm" crossorigin=anonymous integrity="sha384-o0cHPmrlSEEz7O5ELEFlfWQFAI4erozpBBbR/OWWXIEqH88SJjG8Uqa7NEC2slbK" as="fetch" type="application/wasm"></head>
